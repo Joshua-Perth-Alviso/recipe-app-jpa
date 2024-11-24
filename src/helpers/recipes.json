@@ -1,0 +1,41 @@
+[
+    {
+      "Id": 1,
+      "Name": "Pork Sinigang",
+      "Description": "A classic Filipino sour soup made with pork, tamarind, and vegetables.",
+      "Image": "https://via.placeholder.com/350",
+      "Region": "Philippines",
+      "Type": "Soup",
+      "Instruction": "Boil pork until tender, add tamarind mix and vegetables, then simmer until fully cooked.",
+      "Ingredients": [
+        "Pork",
+        "Tamarind mix",
+        "Water spinach",
+        "Eggplant",
+        "Radish",
+        "Tomato",
+        "Onion",
+        "Fish sauce"
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "Adobo",
+      "Description": "A savory Filipino dish made by stewing meat in soy sauce, vinegar, and spices.",
+      "Image": "https://via.placeholder.com/350",
+      "Region": "Philippines",
+      "Type": "Main Dish",
+      "Instruction": "Marinate meat in soy sauce and vinegar, then cook with garlic, bay leaves, and peppercorns.",
+      "Ingredients": [
+        "Chicken or pork",
+        "Soy sauce",
+        "Vinegar",
+        "Garlic",
+        "Bay leaves",
+        "Peppercorns",
+        "Onion",
+        "Sugar (optional)"
+      ]
+    }
+  ]
+  

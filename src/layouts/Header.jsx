@@ -12,13 +12,13 @@ const Header = () => {
       <nav>
         <ul className="flex space-x-4">
           <li>
-            <a href="/" className="hover:text-gray-400 transition">Home</a>
+            <a href="/" className="hover:text-pink-600 transition">Home</a>
           </li>
           <li>
-            <a href="/recipes" className="hover:text-gray-400 transition">Recipes</a>
+            <a href="/recipes" className="hover:text-pink-600 transition">Recipes</a>
           </li>
           <li>
-            <a href="/about" className="hover:text-gray-400 transition">About</a>
+            <a href="/about" className="hover:text-pink-600 transition">About</a>
           </li>
         </ul>
       </nav>
