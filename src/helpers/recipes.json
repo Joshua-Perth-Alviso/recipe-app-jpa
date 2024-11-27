@@ -1,41 +1,136 @@
 [
-    {
-      "Id": 1,
-      "Name": "Pork Sinigang",
-      "Description": "A classic Filipino sour soup made with pork, tamarind, and vegetables.",
-      "Image": "https://via.placeholder.com/350",
-      "Region": "Philippines",
-      "Type": "Soup",
-      "Instruction": "Boil pork until tender, add tamarind mix and vegetables, then simmer until fully cooked.",
-      "Ingredients": [
-        "Pork",
-        "Tamarind mix",
-        "Water spinach",
-        "Eggplant",
-        "Radish",
-        "Tomato",
-        "Onion",
-        "Fish sauce"
-      ]
-    },
-    {
-      "Id": 2,
-      "Name": "Adobo",
-      "Description": "A savory Filipino dish made by stewing meat in soy sauce, vinegar, and spices.",
-      "Image": "https://via.placeholder.com/350",
-      "Region": "Philippines",
-      "Type": "Main Dish",
-      "Instruction": "Marinate meat in soy sauce and vinegar, then cook with garlic, bay leaves, and peppercorns.",
-      "Ingredients": [
-        "Chicken or pork",
-        "Soy sauce",
-        "Vinegar",
-        "Garlic",
-        "Bay leaves",
-        "Peppercorns",
-        "Onion",
-        "Sugar (optional)"
-      ]
-    }
-  ]
-  
+  {
+    "Id": 1,
+    "Name": "Pork Sinigang",
+    "Description": "A classic Filipino sour soup made with pork, tamarind, and vegetables.",
+    "Image": "https://via.placeholder.com/350",
+    "Region": "Philippines",
+    "Type": "Soup",
+    "Instruction": "Boil pork until tender, add tamarind mix and vegetables, then simmer until fully cooked.",
+    "Ingredients": [
+      "Pork",
+      "Tamarind mix",
+      "Water spinach",
+      "Eggplant",
+      "Radish",
+      "Tomato",
+      "Onion",
+      "Fish sauce"
+    ],
+    "isFavorite": false
+  },
+  {
+    "Id": 2,
+    "Name": "Adobo",
+    "Description": "A savory Filipino dish made by stewing meat in soy sauce, vinegar, and spices.",
+    "Image": "https://via.placeholder.com/350",
+    "Region": "Philippines",
+    "Type": "Main Dish",
+    "Instruction": "Marinate meat in soy sauce and vinegar, then cook with garlic, bay leaves, and peppercorns.",
+    "Ingredients": [
+      "Chicken or pork",
+      "Soy sauce",
+      "Vinegar",
+      "Garlic",
+      "Bay leaves",
+      "Peppercorns",
+      "Onion",
+      "Sugar (optional)"
+    ],
+    "isFavorite": true
+  },
+  {
+    "Id": 3,
+    "Name": "Chicken Tinola",
+    "Description": "A Filipino chicken soup with green papaya and ginger.",
+    "Image": "https://via.placeholder.com/350",
+    "Region": "Philippines",
+    "Type": "Soup",
+    "Instruction": "Sauté garlic, onion, and ginger. Add chicken and water. Simmer and add papaya and chili leaves.",
+    "Ingredients": [
+      "Chicken",
+      "Green papaya",
+      "Ginger",
+      "Garlic",
+      "Onion",
+      "Chili leaves",
+      "Fish sauce"
+    ],
+    "isFavorite": true
+  },
+  {
+    "Id": 4,
+    "Name": "Lechon Kawali",
+    "Description": "Crispy deep-fried pork belly served with dipping sauce.",
+    "Image": "https://via.placeholder.com/350",
+    "Region": "Philippines",
+    "Type": "Main Dish",
+    "Instruction": "Boil pork belly until tender, then deep fry until golden and crispy. Serve with dipping sauce.",
+    "Ingredients": [
+      "Pork belly",
+      "Salt",
+      "Pepper",
+      "Garlic",
+      "Vinegar",
+      "Water"
+    ],
+    "isFavorite": true
+  },
+  {
+    "Id": 5,
+    "Name": "Halo-Halo",
+    "Description": "A popular Filipino dessert with mixed sweetened fruits, shaved ice, and milk.",
+    "Image": "https://via.placeholder.com/350",
+    "Region": "Philippines",
+    "Type": "Dessert",
+    "Instruction": "Layer sweetened fruits, beans, and jelly in a glass. Add shaved ice and milk. Top with ube and leche flan.",
+    "Ingredients": [
+      "Shaved ice",
+      "Sweetened fruits",
+      "Sweetened beans",
+      "Jelly",
+      "Evaporated milk",
+      "Ube",
+      "Leche flan"
+    ],
+    "isFavorite": false
+  },
+  {
+    "Id": 6,
+    "Name": "Kare-Kare",
+    "Description": "A Filipino peanut stew with oxtail, tripe, and vegetables.",
+    "Image": "https://via.placeholder.com/350",
+    "Region": "Philippines",
+    "Type": "Main Dish",
+    "Instruction": "Cook oxtail and tripe until tender. Add peanut butter sauce and vegetables. Serve with shrimp paste.",
+    "Ingredients": [
+      "Oxtail",
+      "Tripe",
+      "Peanut butter",
+      "Banana blossoms",
+      "Eggplant",
+      "String beans",
+      "Shrimp paste"
+    ],
+    "isFavorite": true
+  },
+  {
+    "Id": 7,
+    "Name": "Pancit Canton",
+    "Description": "A Filipino stir-fried noodle dish with vegetables and meat or seafood.",
+    "Image": "https://via.placeholder.com/350",
+    "Region": "Philippines",
+    "Type": "Main Dish",
+    "Instruction": "Sauté garlic and onion. Add meat or seafood, then vegetables. Stir fry with noodles and soy sauce.",
+    "Ingredients": [
+      "Noodles",
+      "Garlic",
+      "Onion",
+      "Carrots",
+      "Cabbage",
+      "Meat or seafood",
+      "Soy sauce"
+    ],
+    "isFavorite": false
+  }
+]
