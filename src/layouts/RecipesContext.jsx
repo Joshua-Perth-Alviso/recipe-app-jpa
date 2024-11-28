@@ -7,8 +7,22 @@ export const RecipesContext = createContext();
 const RecipesProvider = ({children}) => {
     const [recipes, setRecipes] = useState(Recipes);
 
+    const addRecipes = (newRecipe) => {
+        setRecipes((prevRecipes) => [...prevRecipes, newRecipe])
+    }
+
+    const deleteRecipe = (name) => {
+        setRecipes((prevRecipes) => prevRecipes.filter((recipe) => recipe.Name !== name))
+    }
+
+    const toggleFavorite = (name) => {
+        setRecipes((prevRecipes) => prevRecipes.map(
+            (recipe) => recipe.Name === name ? {...recipe, isFavorite: !recipe.isFavorite} : recipe
+        ))
+    }
+
     return (
-        <RecipesContext.Provider value={{recipes, setRecipes}}>
+        <RecipesContext.Provider value={{recipes, addRecipes, deleteRecipe, toggleFavorite}}>
             {children}
         </RecipesContext.Provider>
         
