@@ -1,4 +1,3 @@
-import React from 'react';
 import AddRecipesForm from '../layouts/AddRecipesForm';
 
 const RecipeForm = () => {
